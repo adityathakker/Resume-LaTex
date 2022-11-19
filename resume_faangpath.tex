@@ -1,0 +1,117 @@
+\documentclass{resume} % Use the custom resume.cls style
+\usepackage{scrextend}
+\usepackage[left=0.4 in,top=0.4in,right=0.4 in,bottom=0.4in]{geometry} % Document margins
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}} 
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{Aditya Thakker} % Your name
+% You can merge both of these into a single line, if you do not have a website.
+\address{+1(857) 891-5423 \\ Seattle, WA} 
+\address{\href{mailto:aditya.j.thakker@gmail.com}{aditya.j.thakker@gmail.com} \\ \href{https://www.linkedin.com/in/adityathakker/}{linkedin.com/in/adityathakker} \\ \href{https://github.com/adityathakker}{github.com/adityathakker}}  %
+
+\begin{document}
+
+% %----------------------------------------------------------------------------------------
+% %	OBJECTIVE
+% %----------------------------------------------------------------------------------------
+
+% \begin{rSection}{OBJECTIVE}
+
+% {Software Engineer with 2+ years of experience in XXX, seeking full-time XXX roles.}
+
+
+% \end{rSection}
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+{\bf Master of Computer Science}, Northeastern University \hfill {2018 - 2020}\\
+Relevant Coursework: Algorithms, Programming Design Paradigm, Computer Systems, Foundations of AI, NLP
+
+{\bf Bachelor of Computer Engineering}, Mumbai University \hfill {2015 - 2018}\\
+Relevant Coursework: Algorithms, Graph Theory, Data Structures, Artificial Intelligence, Machine Learning. 
+
+%Minor in Linguistics \smallskip \\
+%Member of Eta Kappa Nu \\
+%Member of Upsilon Pi Epsilon \\
+
+
+\end{rSection}
+
+% %----------------------------------------------------------------------------------------
+% % TECHINICAL STRENGTHS	
+
+% \begin{rSection}{SKILLS}
+
+% \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+% Technical Skills & A, B, C, D
+% \\
+% Soft Skills & A, B, C, D\\
+% XYZ & A, B, C, D\\
+% \end{tabular}\\
+% \end{rSection}
+\begin{rSection}{Relevant Professional Experiences}
+\textbf{Software Development Engineer II } \textit{Amazon Alexa, Seattle, WA}\hfill July 2020 - Current \\
+\vspace{-1.7em} \begin{addmargin}[0.5em]{0em}
+• Worked as Software Engineer on a Tier 1 Alexa AI team responsible for serving all the \href{https://developer.amazon.com/en-US/docs/alexa/custom-skills/understand-name-free-interaction-for-custom-skills.html}{Name Free Interaction(NFI)} utterance traffic across all Alexa Voice Requests. Team was also responsible for onboarding all NFI skills to Prod\\
+• Designed, implemented and deployed a \textbf{Machine Learning Model Onboarding and Release System} which brought down Skill Developer's Publishing Time from 16 weeks to 5 weeks across 1P, 3P and Enterprise Segments. \\
+• Worked on Re-Architecture of our service to move from RPC calls across Micro Services to HTTP Streaming calls which brought down our end to end latency requirements from P50 30ms to P50 22ms (26.67\% Drop).\\
+• Built a High Performance Micro Service To Host Machine Learning Models and Serve All Inference Requests. \\
+• Implemented internal tools to improve visibility, monitoring, debugging, and automate common jobs \\
+\end{addmargin} \vspace{-1.7em}
+\textbf{Software Development Engineer Intern } \textit{AWS FSx, Boston, MA}\hfill May 2019 - Dec 2019 \\
+\vspace{-1.7em} \begin{addmargin}[0.5em]{0em}
+• Implemented, Tested and Deployed Internal Tools to improve debugging time for On-call Engineers by automating log access, regex filtering, relevant data stream search, monitoring dashboards, healthy sanity checks, etc. \\
+• Built Automation System which triggers on Incident Alarms and automatically executes wide variety of jobs to either resolve the issue automatically or help On-call Engineer with pro-active information for faster debugging time. \\
+\end{addmargin} \vspace{-1.7em}
+\textbf{Software Developer } \textit{Augle AI, Mumbai, India}\hfill May 2018 - August 2018 \\
+\vspace{-1.7em} \begin{addmargin}[0.5em]{0em}
+• Worked on development of deep learning based Computer Vision system for the State of Maharashtra, India.\\
+• Trained Deep Learning model to detect accidents, traffic violations from 2000+ camera streams in Mumbai City. \\
+• Deployed Production Service that would record events from data stream for automated violation penalties system.\\
+\end{addmargin} \vspace{-1.7em}
+\textbf{Software Developer } \textit{EGyaan, Mumbai, India}\hfill August 2017 - February 2018 \\
+\vspace{-1.7em} \begin{addmargin}[0.5em]{0em}
+• Lead a team of 7 to develop a new E-Learning solution for Rural Indian Schools with jQuery, Javascript, and Python which also lead to a 40\% reduction in schools staffs workload. \\
+• Designed system architecture and database of the whole system having in total 14 inter-dependent modules.\\
+• Implemented a unique Token-based Authentication system with security features to restrict/monitor users activities throughout system. \\
+\end{addmargin} 
+\end{rSection} 
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+\vspace{-1.5em}
+\begin{rSection}{RELEVANT PROJECTS}
+\vspace{-1.25em}
+\item \textbf{Contextual Acronym Expansion} {Created a system based on information retrieval algorightms and embedding based similarity models to auto expand acronyms based on surrounding context in text \href{https://github.com/adityathakker/AcronymExpansion}{(Try it here)}}
+\item \textbf{Where's My Bus} {Developed a bus tracking system to provide information about live location of buses, time to reach
+nearest bus stop, etc. Programmed shortest distance algorithms to find optimal path from source to destination via 0, 1, or 2 intermediate
+stops. Used historical data to predict estimated time to reach dest. stop.\href{https://github.com/adityathakker/Wheres-My-Bus}{(Try it here)}}
+\item \textbf{Varys Search Engine} {Wrote a text-based search engine for Wikipedia which included a Crawler, Indexer, and Query Engine from scratch.  Utilized NLP algorithms along with PageRank algorithm and improved performance of indexing by 24\% by switching to NoSQL database and making segment trees as a primary data structure. \href{https://github.com/adityathakker/Varys-Search-Engine}{(Try it here)}}\\
+\end{rSection} 
+
+%----------------------------------------------------------------------------------------
+\vspace{-1.5em}
+\begin{rSection}{Relevant Skills} 
+\begin{addmargin}[0.5em]{0em}
+• \textbf{Programming Languages:} Java, Python, Ruby, C++, Go, Jacascript, Typescript, SQL, etc\\
+• \textbf{Databases:} DynamoDB, MongoDB, Reddis, MemoryDB, MySQL, Postgres\\
+• \textbf{Cloud Services:} DynamoDB, S3, Lambda, Route53, EC2, ECS, FSx, Cloudwatch, API Gateway, etc\\
+\end{addmargin} 
+
+
+\end{rSection}
+
+% %----------------------------------------------------------------------------------------
+% \begin{rSection}{Leadership} 
+% \begin{itemize}
+%     \item Admin for the \href{https://discord.com/invite/WWbjEaZ}{FAANGPath Discord community} with over 6000+ job seekers and industry mentors. Actively involved in facilitating online events, career conversations, and more alongside other admins and a team of volunteer moderators! 
+% \end{itemize}
+
+
+% \end{rSection}
+
+
+\end{document}
